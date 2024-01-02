@@ -1,0 +1,88 @@
+.container {
+  width:70%;
+  margin:auto;
+}
+.loginForm {
+  width:30%;
+  min-width: 450px;
+  margin:auto;
+  overflow: hidden;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:20px;
+  padding-right:20px;
+  margin-top:3%;
+  margin-bottom:0%;
+  background-color: white;
+  border-radius:5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.loginForm input {
+  display:block;
+  margin:auto;
+  width: 70%;
+  min-width: 350px;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid gray;
+  border-radius:5px;
+  margin-top: 4%;
+  background-color: white;
+  color:#141414;
+}
+.loginForm button {
+  display: block;
+  margin:auto;
+  width: 30%;
+  margin-top: 4%;
+  font-size: 1rem;
+  padding: 0.7rem;
+  border:none;
+  border-radius:50px;
+  background-color: #1677ff;
+  color:white;
+}
+.loginForm h1 {
+  text-align: center;
+}
+.loginForm p {
+  text-align:center;
+}
+.navbar { 
+  height:70px;
+  display: flex;  
+  position: sticky;  
+  align-items: center; 
+  justify-content: space-between;
+  top: 0px; 
+  background-color: white;
+  border-bottom: 2px solid #1677ff;
+  width:100%;
+  flex-wrap: nowrap;
+} 
+
+.navbar ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.navbar li {
+  list-style: none; 
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 20px; 
+}
+.navLink{
+  color: #1677ff;
+}
+.navLink:hover {
+  color: #141414;
+}
+.modalInput {
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  .container {
+      width:100%;
+      margin:20px;
+  }
+}
